@@ -8,9 +8,9 @@ def get_connection():
         conn = psycopg2.connect(
             host="localhost",
             port="5432",
-            database="destilerija_rale",
-            user="marino_barnjak",
-            password="programiranje1"
+            database="YOUR_DATABASE",
+            user="YOUR_USERNAME",
+            password="YOUR_PASSWORD"
         )
         return conn
     except Exception as e:
